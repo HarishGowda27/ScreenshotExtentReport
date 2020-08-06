@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Suite" parallel="false">
+	<test name="Test">
+
+	<listeners>
+		<listener class-name="com.screen.util.ExtentReporterNG" />
+	</listeners>
+
+		<classes>
+			<class name="com.screen.testscripts.ExtentScreenShot" />
+			<class name="com.screen.testscripts.NewTest3" />
+		</classes>
+	</test>
+</suite>
